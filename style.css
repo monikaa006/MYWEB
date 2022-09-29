@@ -1,0 +1,57 @@
+.screen{
+    display: inline;
+}
+.action{
+    display: inline;
+}
+.task .actions .edit {
+	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	
+	
+}
+
+.task .actions .delete {
+	color: crimson;
+}
+
+.task .actions {
+	display:inline;
+	margin:9px,9px;
+}
+
+.task .actions button {
+	cursor: pointer;
+	margin: 0 0.5rem;
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 9px;
+	transition: 0.4s;
+}
+.task .actions button:hover {
+	opacity: 0.8;
+}
+
+.task .actions button:active {
+	opacity: 0.6;
+}
+.task .content .text {
+	color: var(--light);
+	font-size: 1.125rem;
+	width: 100%;
+	display: block;
+	transition: 0.4s;
+}
+#tasks .task {
+	display: inline;
+	justify-content: space-between;
+	background-color: var(--darkest);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+    width: 100%;
+}
+.input.text{
+    width: 100%;
+}
+
+
